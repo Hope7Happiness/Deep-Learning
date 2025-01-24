@@ -10,7 +10,7 @@ Most of the code are in `ipynb` notebook format with explanations and comments.
 
 ## Collaborating
 
-You can collaborate by opening up a branch with name `name.task` (e.g. `zhh.resnet`). The branch can contain development code for future usages, but the main branch should only contain a single notebook.
+You can collaborate by opening up a branch with name `name.task` (e.g. `zhh.resnet`) **from the commit [ac0e128](https://github.com/Hope7Happiness/Deep-Learning/commit/ac0e128dec6b46c28884a0fe851b71d07ba364ac)**. Your own branch can contain development code for future usages, but the `main` branch will only keep your final notebook.
 
 The code should not be too complicated and should be able to run on a single 4090 GPU.
 
