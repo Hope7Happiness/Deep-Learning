@@ -37,7 +37,7 @@ def linear_trans_(x):
 data_transform = transforms.Compose([
     transforms.ToTensor(),
     transforms.Lambda(add_noise),
-    # transforms.Lambda(linear_trans_),
+    transforms.Lambda(linear_trans_),
 ])
 
 train_set = CIFAR10(root='./data', train=True, download=True, transform=data_transform)
