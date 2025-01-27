@@ -56,5 +56,4 @@ def sample_data(h, w):
         ax.axis('off')
     plt.tight_layout()
     plt.axis('off')
-    plt.savefig('sample.png')
     plt.show()
