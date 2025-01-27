@@ -58,6 +58,3 @@ def sample_data(h, w):
     plt.axis('off')
     plt.savefig('sample.png')
     plt.show()
-
-if __name__ == '__main__':
-    sample_data(5, 5)
