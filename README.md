@@ -57,3 +57,15 @@ The code should be generally runable on **Python 3.10 + Pytorch 2.2**. For speci
 ### Representation Learning
 
 [ ] SimCLR
+
+## Notes for Developers
+
+(Only for repository managers)
+
+### Merge a new branch into main repository:
+
+```shell
+git checkout -b name.task dev_start
+git pull https://URL.git name.task
+git push --set-upstream origin name.task
+```
