@@ -1,24 +1,30 @@
-# Deep Learning
+# Deep Learning in xxx 4090 Hours  
 
-🛠️ This repository is currently under development!
+(this `xxx` will become an actual number when a number of tasks are completed)
 
-It is well known that studying deep learning, especially learning the practical details, requires a lot of computational resources. However, this repository aims to explain xxx Deep Learning algorithm/papers **within (a total of) xxx 4090 Hours**.
+## 🎯 Our Goal  
 
-The results may not be optimal and are mostly carried out on toy datasets (e.g. MNIST, CIFAR10, etc.) but the code is fully functional and can explain the basic ideas of the algorithm.
+When studying Deep Learning, mastering **implementation skills** and understanding **practical details** are crucial. However, there is a lack of a **comprehensive** codebase that covers fundamental methods in an accessible way. Additionally, many existing implementations focus on large-scale datasets, making them difficult for individuals to follow and experiment with.  
 
-Most of the code are in `ipynb` notebook format with explanations and comments.
+This repository aims to address these challenges by providing a **well-organized**, **beginner-friendly**, and **comprehensive** collection of fundamental Deep Learning implementations. While our code may not achieve best results and primarily runs on toy datasets (e.g., MNIST), we prioritize **clarity and ease of use**. Specifically, we ensure that all implementations can be executed on a **single NVIDIA RTX 4090 GPU** within a reasonable amount of time.  
 
-## Collaborating
+Without specific mentioning, all of our implementations are provided in **Jupyter notebooks (`.ipynb`)**, with clear explanations and detailed comments to facilitate learning.
 
-You can collaborate by opening up a branch with name `name.task` (e.g. `zhh.resnet`) **from the commit [ac0e128](https://github.com/Hope7Happiness/Deep-Learning/commit/ac0e128dec6b46c28884a0fe851b71d07ba364ac)**. Your own branch can contain development code for future usages, but the `main` branch will only keep your final notebook.
+## 👫 Join Us!  
 
-The code should not be too complicated and should be able to run on a single 4090 GPU.
+We welcome contributions from anyone passionate about helping more Deep Learning enthusiasts get started! Our goal is to utilize the power of the GitHub community and make learning more accessible.  
 
-## Installation
+To contribute, create a new branch named **`yourname.task`** (e.g., `zhh.resnet`) **from branch [dev_start](https://github.com/Hope7Happiness/Deep-Learning/tree/dev_start)**. This branch is intentionally kept simple to avoiding downloading lots of files during cloning.
+
+Your branch can include experimental or development code, but only finalized notebooks will be merged into the `main` branch. If your code requires additional dependencies, please include a `requirements.txt` file.
+
+Please ensure your code is **concise, easy to understand, and runnable on a single 4090 GPU**. You can refer to the example code at [here](TODO). 
+
+## 🛠️ Installation
 
 The code should be generally runable on **Python 3.10 + Pytorch 2.2**. For specific tasks, you may have to install additional dependencies based on its instructions.
 
-## Table Of Contents
+## 📖 Table Of Contents
 
 ### Image Classification
 
