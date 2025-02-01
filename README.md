@@ -14,7 +14,9 @@ Without specific mentioning, all of our implementations are provided in **Jupyte
 
 We welcome contributions from anyone passionate about helping more Deep Learning enthusiasts get started! Our goal is to utilize the power of the GitHub community and make learning more accessible.  
 
-To contribute, create a new branch named **`yourname.task`** (e.g., `zhh.resnet`) **from commit [ac0e128](https://github.com/Hope7Happiness/Deep-Learning/commit/ac0e128dec6b46c28884a0fe851b71d07ba364ac)**. Your branch can include experimental or development code, but only finalized notebooks will be merged into the `main` branch. If your code requires additional dependencies, please include a `requirements.txt` file.
+To contribute, create a new branch named **`yourname.task`** (e.g., `zhh.resnet`) **from branch [dev_start](https://github.com/Hope7Happiness/Deep-Learning/tree/dev_start)**. This branch is intentionally kept simple to avoiding downloading lots of files during cloning.
+
+Your branch can include experimental or development code, but only finalized notebooks will be merged into the `main` branch. If your code requires additional dependencies, please include a `requirements.txt` file.
 
 Please ensure your code is **concise, easy to understand, and runnable on a single 4090 GPU**. You can refer to the example code at [here](TODO). 
 
